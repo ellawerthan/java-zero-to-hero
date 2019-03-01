@@ -6,7 +6,7 @@ public class Word {
     private WordType wordType;
 
     enum WordType {
-        NOUN, VERB, ADJECTIVE, OTHER;
+        NOUN, VERB, ADJECTIVE, OTHER
     }
 
     public Word(String word, WordType wordType) {
